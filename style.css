@@ -1,0 +1,38 @@
+body {
+    background-image: url('./game/img/1615821104_53-p-fon-milii-64.jpg');
+    font-family: 'Press Start 2P', cursive;
+    line-height: 20px;
+    color: white; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 90vh;
+}
+
+.start {
+    display: inline-block;
+    height: 50px;
+    width: 40%;
+    padding: 20px; 
+    background: #fc004c77;
+    animation: 1.5s grow infinite;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+@keyframes grow {
+    0% { transform: scale(1); }
+ 50% { transform: scale(1.5); }
+ 100% {transform: scale(1);}
+}
+
+img {
+    width: 20px;
+}
+
+a {
+    color: white; 
+    text-decoration: none;
+}
