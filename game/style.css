@@ -1,3 +1,7 @@
+* {
+    box-sizing: border-box;
+}
+
 body {
     background-image: url('./img/1615821104_53-p-fon-milii-64.jpg');
     font-family: 'Press Start 2P', cursive;
@@ -71,6 +75,13 @@ text-align: center;
     align-items: center;
     font-size: 20px;
     perspective: 1000px;
+    opacity: 0;
+    transition: .3s ease;
+    border: 3px #fc004c77 solid;
+}
+
+.visible {
+    opacity: 1;
 }
 
 .card-inner {
