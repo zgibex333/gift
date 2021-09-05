@@ -37,7 +37,7 @@ setTimeout(() => {
 Array.from(arr).forEach(item => {
  item.classList.add('visible')
 })
-}, 15000); 
+}, 17000); 
 
 // Array.from(arr).forEach(item => {
 //   item.addEventListener('click', () => {
@@ -45,3 +45,5 @@ Array.from(arr).forEach(item => {
 //     img.style.transform = 'rotateY(180deg)';
 //   })
 // })
+
+
