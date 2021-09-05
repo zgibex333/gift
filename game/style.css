@@ -46,10 +46,12 @@ margin-top: 20px;
 padding: 10px;
 background: #fc004c77;
 text-align: center;
+line-height: 38px;
 }
 
 .game-title {
     font-size: 20px;
+    line-height: 27px;
     color: black; 
     text-align: center; 
     display: inline;
@@ -120,3 +122,31 @@ text-align: center;
     color: white;
     transform: rotateY(180deg);
   }
+
+.quest {
+    background: #fc004c77;
+    text-align: center;
+    padding: 20px;
+}
+
+input {
+    padding: 20px;
+    font-family: 'Press Start 2P', cursive;
+}
+
+.wawa {
+    margin: 40px auto 0;
+    width: 100%;
+    padding: 30px;
+    border: none;
+    background: #fc004c77;
+    font-family: 'Press Start 2P', cursive;
+    color: white; 
+    border-radius: 3px;
+    font-size: 20px;
+}
+
+.wawa:focus {
+    background: #ee749877;
+}
+
